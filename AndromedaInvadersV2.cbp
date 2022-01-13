@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="AndromedaInvadersV2" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/AndromedaInvadersV2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="sfml-graphics-d" />
+					<Add library="sfml-window-d" />
+					<Add library="sfml-system-d" />
+					<Add library="../../SFML-2.4.1/lib/libsfml-audio-d.a" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/AndromedaInvadersV2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="sfml-graphics" />
+					<Add library="sfml-window" />
+					<Add library="sfml-system" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="D:/SFML-2.4.1/include" />
+		</Compiler>
+		<Linker>
+			<Add library="mingw32" />
+			<Add library="user32" />
+			<Add library="gdi32" />
+			<Add library="winmm" />
+			<Add library="dxguid" />
+			<Add directory="D:/SFML-2.4.1/lib" />
+		</Linker>
+		<Unit filename="AlienCraft.cpp" />
+		<Unit filename="AlienCraft.h" />
+		<Unit filename="Curseur.cpp" />
+		<Unit filename="Curseur.h" />
+		<Unit filename="Game.cpp" />
+		<Unit filename="Game.h" />
+		<Unit filename="GameLoader.cpp" />
+		<Unit filename="GameLoader.h" />
+		<Unit filename="GameOption.cpp" />
+		<Unit filename="GameOption.h" />
+		<Unit filename="GamePrepare.cpp" />
+		<Unit filename="GamePrepare.h" />
+		<Unit filename="GamePresentation.cpp" />
+		<Unit filename="GamePresentation.h" />
+		<Unit filename="Gameuse.cpp" />
+		<Unit filename="Gameuse.h" />
+		<Unit filename="Includer.h" />
+		<Unit filename="Indicator.cpp" />
+		<Unit filename="Indicator.h" />
+		<Unit filename="MainMenu.cpp" />
+		<Unit filename="MainMenu.h" />
+		<Unit filename="Meteor.cpp" />
+		<Unit filename="Meteor.h" />
+		<Unit filename="MultiBackground.cpp" />
+		<Unit filename="MultiBackground.h" />
+		<Unit filename="MultiPrepare.cpp" />
+		<Unit filename="MultiPrepare.h" />
+		<Unit filename="MultiplayerGame.cpp" />
+		<Unit filename="MultiplayerGame.h" />
+		<Unit filename="NetworkManager.cpp" />
+		<Unit filename="NetworkManager.h" />
+		<Unit filename="PlayerCraft.cpp" />
+		<Unit filename="PlayerCraft.h" />
+		<Unit filename="Projectile.cpp" />
+		<Unit filename="Projectile.h" />
+		<Unit filename="Usefull_Things.h" />
+		<Unit filename="Vaisseau.cpp" />
+		<Unit filename="Vaisseau.h" />
+		<Unit filename="cb.bmp" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
